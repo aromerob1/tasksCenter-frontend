@@ -16,7 +16,7 @@ function Register() {
 
   useEffect(() => {
     console.log("Checking if authenticated:", isAuthenticated);
-    if (isAuthenticated) navigate("/tasks");
+    if (isAuthenticated) navigate("/tasksCenter-frontend/tasks");
   }, [isAuthenticated, navigate]);
 
   return (
@@ -81,7 +81,7 @@ function Register() {
             </button>
           </form>
           <p className="mt-2">
-            Already have an account? <Link id="Login-Reg-Link" to="/login">Login</Link>
+            Already have an account? <Link id="Login-Reg-Link" to="/tasksCenter-frontend/login">Login</Link>
           </p>
         </div>
       </div>

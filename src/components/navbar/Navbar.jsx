@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav id="nav" className="navbar navbar-expand-lg">
       <div className="container">
-        <Link className="navbar-brand" to="/tasks">
+        <Link className="navbar-brand" to="/tasksCenter-frontend/tasks">
           TasksCenter
         </Link>
 
@@ -28,19 +28,19 @@ function Navbar() {
             {isAuthenticated ? (
               <>
                 <li className="nav-item d-none d-lg-block">
-                  <Link className="nav-link" to="/tasks">
+                  <Link className="nav-link" to="/tasksCenter-frontend/tasks">
                     Welcome {user.username}
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/add-task">
+                  <Link className="nav-link" to="/tasksCenter-frontend/add-task">
                     Add Task
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
                     className="nav-link"
-                    to="/login"
+                    to="/tasksCenter-frontend/login"
                     onClick={() => {
                       logout();
                     }}
@@ -52,12 +52,12 @@ function Navbar() {
             ) : (
               <>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/login">
+                  <Link className="nav-link" to="/tasksCenter-frontend/login">
                     Log in
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/register">
+                  <Link className="nav-link" to="/tasksCenter-frontend/register">
                     Sign Up
                   </Link>
                 </li>

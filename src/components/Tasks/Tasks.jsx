@@ -15,7 +15,7 @@ function Tasks() {
     return (
       <div className="mt-4">
         <h1>You don't have any task yet...</h1>
-        <Link id="add-task-btn" className="btn btn-primary mt-3" to="/add-task">
+        <Link id="add-task-btn" className="btn btn-primary mt-3" to="/tasksCenter-frontend/add-task">
           Add Task
         </Link>
       </div>

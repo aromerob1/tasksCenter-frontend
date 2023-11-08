@@ -26,7 +26,7 @@ function TaskForm() {
     } else {
       createTask(data);
     }
-    navigate("/tasks");
+    navigate("/tasksCenter-frontend/tasks");
   });
   return (
     <div className="container mt-5">

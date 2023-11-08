@@ -16,7 +16,7 @@ function Card({ task }) {
         </div>
         <div className="d-flex justify-content-end align-items-end">
           <Link
-            to={`/tasks/${task._id}`}
+            to={`/tasksCenter-frontend/tasks/${task._id}`}
             id="edit-btn"
             className="btn btn-primary me-2"
           >

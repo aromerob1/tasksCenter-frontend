@@ -21,13 +21,13 @@ function App() {
           <main className="container">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
+              <Route path="/tasksCenter-frontend/login" element={<Login />} />
+              <Route path="/tasksCenter-frontend/register" element={<Register />} />
 
               <Route element={<ProtectedRoute />}>
-                <Route path="/tasks" element={<Tasks />} />
-                <Route path="/add-task" element={<TaskForm />} />
-                <Route path="/tasks/id:" element={<TaskForm />} />
+                <Route path="/tasksCenter-frontend/tasks" element={<Tasks />} />
+                <Route path="/tasksCenter-frontend/add-task" element={<TaskForm />} />
+                <Route path="/tasksCenter-frontend/tasks/id:" element={<TaskForm />} />
               </Route>
             </Routes>
             <Footer/>

@@ -17,7 +17,7 @@ function Login() {
   });
 
   useEffect(() => {
-    if (isAuthenticated) navigate("/tasks");
+    if (isAuthenticated) navigate("/tasksCenter-frontend/tasks");
   }, [isAuthenticated]);
 
   useEffect(() => {
@@ -82,7 +82,7 @@ function Login() {
           </form>
           <p className="mt-2">
             Don't have an account?{" "}
-            <Link id="Register-Log-Link" to="/register">
+            <Link id="Register-Log-Link" to="/tasksCenter-frontend/register">
               Sign up
             </Link>
           </p>
