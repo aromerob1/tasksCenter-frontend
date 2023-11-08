@@ -1,0 +1,27 @@
+#add-task-btn {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+#add-task-btn:hover {
+    color: #00ADB5;
+    background-color: #EEEEEE;
+    border-color: #EEEEEE;
+}
+
+#edit-btn {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+}
+
+#task-card {
+    background-color: #222831;
+    color: #EEEEEE;
+    border-color: #EEEEEE;
+}
+
+#task-date {
+    color: #00ADB5;
+}
+
