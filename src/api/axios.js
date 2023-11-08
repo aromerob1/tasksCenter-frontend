@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'http://localhost:4000/api',
+    baseURL: 'https://taskscenter-backend-api-834d631505bc.herokuapp.com/api',
     withCredentials: true
 })
 
